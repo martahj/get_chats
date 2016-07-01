@@ -10,7 +10,7 @@ const write = {};
 module.exports = write;
 
 write.addChats = (chatsArr) => { 
-	let txt = chatsArr.map(chat => JSON.stringify(chat) ).join('\n');
+	let txt = chatsArr.map(chat => JSON.stringify(chat) ).join('\n\n');
 	return write.writeTxt(txt)
 	.then( () => {console.log('done!')})
 }
