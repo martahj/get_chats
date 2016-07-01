@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "bash ./test/run.sh",
-    "write": "node getchats.js"
+    "start": "node getChats"
   },
   "author": "",
   "license": "ISC",
